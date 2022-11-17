@@ -1,1 +1,10 @@
-theme: jekyll-theme-leap-day
+theme : "minimal-mistakes-jekyll"
+remotre_theme : "mmistakes/minimal-mistakes"
+minimal_mistakes_skin : "default"
+
+locale : "en-US"
+title : "Site Title"
+title_separator : "-"
+name : "Your Name"
+url : "https://Leemyeongjun.github.io"
+baseurl : ""
