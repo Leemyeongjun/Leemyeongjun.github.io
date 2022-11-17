@@ -1,5 +1,5 @@
-theme : "minimal-mistakes-jekyll"
-remote_theme : "mmistakes/minimal-mistakes"
+theme : minimal-mistakes-jekyll
+remote_theme : mmistakes/minimal-mistakes
 minimal_mistakes_skin : "default"
 
 locale : "ko-KR"
@@ -11,3 +11,4 @@ description : "하루 1번 복습"
 url : "https://Leemyeongjun.github.io"
 baseurl : ""
 repository : "https://github.com/Leemyeongjun/Leemyeongjun.github.io"
+
