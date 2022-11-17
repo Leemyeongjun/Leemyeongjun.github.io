@@ -1,7 +1,8 @@
 #Update all the sections by editing the data.yml file inside _data folder.
 
 # Site Settings
-title: My Resume
+title: 내 정보
+title: 메모장
 url: "https://Leemyeongjun.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: ""
 
