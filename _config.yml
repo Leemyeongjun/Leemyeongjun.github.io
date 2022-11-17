@@ -1,14 +1,1 @@
-theme : minimal-mistakes-jekyll
-remote_theme : mmistakes/minimal-mistakes
-minimal_mistakes_skin : "default"
-
-locale : "ko-KR"
-title : "My Blog"
-title_separator : "-"
-subtitle : "version 1.0"
-name : "이명준(Lee Myeongjun)"
-description : "하루 1번 복습"
-url : "https://Leemyeongjun.github.io"
-baseurl : ""
-repository : "https://github.com/Leemyeongjun/Leemyeongjun.github.io"
-
+theme: jekyll-theme-leap-day
