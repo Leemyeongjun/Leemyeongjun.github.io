@@ -21,7 +21,7 @@
 
 <div align="center">
 
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleemyeongjun.github.io&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Visit&edge_flat=false"/></a>
+<a href="https://github.com/Leemyeongjun/Leemyeongjun.github.io"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleemyeongjun.github.io&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Visit&edge_flat=false"/></a>
 
 <a href="https://www.twitter.com" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-thebadge&logo=트위터아이콘&logoColor=black"/></a>
 
