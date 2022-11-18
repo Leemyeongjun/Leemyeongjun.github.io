@@ -29,4 +29,6 @@
 
 <a href="https://ko-kr.facebook.com/" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-thebadge&logo=페이스북아이콘&logoColor=black"/></a>
 
+<a href="https://youtube.com/" target="_blank"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-thebadge&logo=유튜브아이콘&logoColor=wihte"/></a>
+
 </div>
