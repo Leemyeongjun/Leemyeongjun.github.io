@@ -29,6 +29,6 @@
 
 <a href="https://www.youtube.com/" target="_blank"><img src="https://img.shields.io/badge/Youtube-FF0000?style=for-thebadge&logo=유튜브아이콘&logoColor=wihte"/></a>
 
-<a href="https://www.naver.com/" target="_blank"><img src="https://img.shields.io/badge/Naver-FF0000?style=for-thebadge&logo=네이버아이콘&logoColor=wihte"/></a>
+<a href="https://www.naver.com/" target="_blank"><img src="https://img.shields.io/badge/Naver-03C75A?style=for-thebadge&logo=네이버아이콘&logoColor=wihte"/></a>
 
 </div>
