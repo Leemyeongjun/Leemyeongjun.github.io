@@ -19,7 +19,7 @@
 
 ---
 
-<div align="center" style="border=1px solid height:auto; width:100px;">
+<div align="center">
 
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleemyeongjun.github.io&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Visit&edge_flat=false"/></a>
 
