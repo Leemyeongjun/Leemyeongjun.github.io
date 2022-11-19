@@ -1,5 +1,5 @@
-![title] My blog
-[title] : My blog
+
+---
 
 ### Introduce
 
