@@ -43,8 +43,21 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 ### Hypervisor
 
+하이퍼바이저는 가상 머신(Virtual Machne, VM)을 생성하고 구동하는 소프트웨어다. 
+가상 머신 모니터(VMM)라고도 불리는 하이퍼바이저는 하이퍼바이저  
+운영 체제와 가상 머신의 리소스를 분리해 VM의 생성과 관리를 지원한다.  
 
+* Natvie or Bare-metal
+    * 가상 시스템 또는 게스트운영 체제 중 하나의 문제가 하드웨어에서  
+    실행 중인 다른 게스트 운영체제에 영향을 미치지 않는다.  
+    2번째 수준으로 실행된다.  
+    대표적으로 Xen, KVM, Oracle VM server for SPARC, Microsoft Hyper-V가 있다.  
 
+* Hosted
+    * 일반 프로그램과 같이 호스트 운영체제에서 실행되며  
+    VM 내부에서 동작되는 게스트 운영체제는 하드웨어에서 3번째 수준으로 실행된다.  
+    대표적으로 VMwar Server, VMware, Workstation, Virtual box가 있다.
+    
 ---
 
 <div align="center">
