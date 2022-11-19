@@ -1,4 +1,4 @@
-# My Blog
+[title] # My Blog
 ---
 ### Introduce
 
@@ -16,7 +16,6 @@
 
 안녕하세요.  
 잘부탁드립니다. ^^
-centos5 수정 버전 네번째
 
 ---
 
