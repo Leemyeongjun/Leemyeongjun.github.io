@@ -53,11 +53,15 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
     2번째 수준으로 실행된다.  
     대표적으로 Xen, KVM, Oracle VM server for SPARC, Microsoft Hyper-V가 있다.  
 
+    ![HPV1](https://user-images.githubusercontent.com/77829885/202845957-b21258d4-25be-4932-a91b-83bd47f87381.png)
+
 * Hosted
     * 일반 프로그램과 같이 호스트 운영체제에서 실행되며  
     VM 내부에서 동작되는 게스트 운영체제는 하드웨어에서 3번째 수준으로 실행된다.  
     대표적으로 VMwar Server, VMware, Workstation, Virtual box가 있다.
-    
+
+    ![HPV2](https://user-images.githubusercontent.com/77829885/202845961-9e47e467-ac68-4213-806b-86fefb0d5179.png)
+
 ---
 
 <div align="center">
