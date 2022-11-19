@@ -1,1 +1,7 @@
-theme : "minimal-mistakes-jekyll"
+inimal_mistakes_skin : "default"
+
+title : "Site Title"
+title_separator : "-"
+name : "Your Name"
+description : "An amazing website."
+url : "https://leemyeongjun.github.io"
