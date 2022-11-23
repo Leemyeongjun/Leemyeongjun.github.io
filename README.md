@@ -105,6 +105,41 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 ```
 
+```
+
+3. ls : 특정 디렉토리와 특정 파일 내용 제공
+
+   [vagrnat/@host1 ~]$ ls
+
+   git
+
+```
+
+```
+
+4. file : 지저오딘 파일의 종류(타입)을 확인하는 명령어
+
+   [vagrant/@host1 ~]$ file git
+
+   git: directory
+
+```
+
+```
+
+5. less : 내용을 페이지로 나누어 보여주는 명령어
+
+   [vagrant/host1 bitcamp-ncp]$ less x.txt
+
+   ```
+   1111
+   2222
+   x.txt (END)
+
+   ```
+
+```
+
 ---
 
 <div align="center">
