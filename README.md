@@ -90,8 +90,18 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 1. pwd : 현재 작업중인 디렉토리 표시  
 
    [vagrant/@host1 ~]$ pwd  
-   
+
    /home/vagrant
+
+```  
+
+```
+
+2. cd : 디렉토리를 이동하는 명령어  
+
+   [vagrant/@host1 ~]$ cd git
+
+   [vagrant/host1 git]$
 
 ```
 
