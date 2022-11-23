@@ -322,6 +322,38 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 ---
 
+### 웹기술의 등장 과정
+
+인터넷은 1960년대에 미국 국방부 산하의 고등 연구국에서 군사적 목적으로 처음 개발되었다.
+
+하지만 우리가 아는 "인터넷"의 시작은 1990년대 팀 버너스 리가 개발한 월드 와이드 웹(World Wide Web)이다.
+
+WWW은 물리학자들 사이에서 효율적이고 신속한 자료를 공유받기 위한 목적 이었다.
+그렇게 1990년 말에 HyperText라는 프로젝트가 생겨났고 HyperText를 이용한 기술 중 중요한 두가지가 탄생했다.
+
+팀 버너스 리는 웹서버와 웹브라우저를 개발하고, 이 둘이 통신할때 사용하는 프로토콜인 HTTP라는 통신 규약을 정의하고, 웹 브라우저에 정보를 표현할 수 있게 하는 프로그래밍 언어, HTML을 발명했다.
+그리고, 이러한 기술들을 Public Domain으로  공개하면서 인터넷은 폭발적으로 발전하게 된다.
+
+* 1세대 웹 서비스 - Web System Architecture(정적 웹)
+   * 웹 서버가 HTML 페이지 전체를 클라이언트에게 전송
+
+* 2세대 웹 서비스 - User Interaction의 증가(동적 웹)
+   * 웹 기반의 언어인 자바스크립트가 출현
+   *Web server에서 전체 HTML 페이지 뿐만 아니라 JavaScript를 통해 서버와 필요한 데이터만 주고 받음
+
+* 3세대 웹 서비스 - SPA (Frontend / Backend)
+   * 자바스크립트가 주가 되고 그 안에 일부 HTML, CSS가 포함
+   * 단일의 html 페이지에서 전체 웹 사이트/서비스를 구현
+   * 파일은 처음 한번만 송수신. 그 뒤로는 실시간 데이터만 주고 받음
+   * 처음 전송된 단일 HTML 페이지에 포함되어 있는 JavaScript 에서 필요한
+     데이터를 API 서버로부터 호출해 필요한 화면을 새롭게 구성해주는 방식
+   * HTML 태그 자체를 자바스크립트가 동적으로 생성
+   * 프론트엔드와 백엔드가 나뉘게 되는 기점
+        (프론트 - UI/UX, 백엔드 - Data)
+   * 구조적으로 분리가 되면서, Frontend 서버와 Backend API 서버도 분리가 된다.
+
+---
+
 <div align="center">
 
 <a href="https://github.com/Leemyeongjun/Leemyeongjun.github.io"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleemyeongjun.github.io&count_bg=%23000000&title_bg=%23000000&icon=&icon_color=%23E7E7E7&title=Visit&edge_flat=false"/></a>
