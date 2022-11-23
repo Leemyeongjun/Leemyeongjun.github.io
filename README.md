@@ -89,7 +89,7 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 ```
 1. pwd : 현재 작업중인 디렉토리 표시
 
-   [vagrant/@host1 ~]$ pwd
+   [vagrant@host1 ~]$ pwd
 
    /home/vagrant
 
@@ -99,9 +99,9 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 2. cd : 디렉토리를 이동하는 명령어
 
-   [vagrant/@host1 ~]$ cd git
+   [vagrant@host1 ~]$ cd git
 
-   [vagrant/host1 git]$
+   [vagrant@host1 git]$
 
 ```
 
@@ -109,7 +109,7 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 3. ls : 특정 디렉토리와 특정 파일 내용 제공
 
-   [vagrnat/@host1 ~]$ ls
+   [vagrnat@host1 ~]$ ls
 
    git
 
@@ -119,7 +119,7 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 4. file : 지저오딘 파일의 종류(타입)을 확인하는 명령어
 
-   [vagrant/@host1 ~]$ file git
+   [vagrant@@host1 ~]$ file git
 
    git: directory
 
@@ -129,12 +129,194 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
 5. less : 내용을 페이지로 나누어 보여주는 명령어
 
-   [vagrant/host1 bitcamp-ncp]$ less x.txt
+   [vagrant@host1 bitcamp-ncp]$ less x.txt
 
    새로운 창에서
    1111
    2222
    x.txt (END)
+
+```
+
+```
+6. cp : 파일, 디렉토리를 복사하는 명령어
+
+   [vagrnat@host1 bitcamp-ncp]$ cp x.txt l.txt
+
+   [vagrant@host1 bitcamp-ncp]$ ls
+
+   l.txt  x.txt
+
+   [vagrant@host1 bitcamp-ncp]$ cat l.txt
+
+   1111
+   2222
+
+   cp [원본파일이름] [옮길파일이름]
+   cp [원본파일위치/원본파일이름] [옮길파일위치][옮길파일이름]
+   cp[원본파일이름][옮길파일위치]
+
+```
+
+```
+7. mv : move의 줄임말로 파일, 디렉토리를 이동 시킬때 사용하는 명령어
+
+   [vagrant@host1 bitcamp-ncp]$ mv l.txt c.txt
+
+   복사한 l.txt를 1111만 있는 c.txt에 이동
+
+   [vagrant@host1 bitcamp-ncp]$ cat c.txt
+
+   1111
+   2222
+
+```
+
+```
+
+8. mkdir : make directory의 약자로 디렉토리(폴더)를 생성할 때 사용하는 명령어
+
+   mkdir [옵션][생성 할 디렉토리]
+
+   [vagrant@host1 ~]$ mkdir test 
+   [vagrant@host1 ~]$ ls
+
+   git test
+
+```
+
+```
+
+9. rm : remvoce의 약자로 파일이나 디렉토리를 삭제 시킬때 사용하는 명령어
+
+   다시한번 x.txt를 l.txt로 카피해서 지운다
+   [vagrant@host bitcamp-ncp]$ cp x.txt l.txt
+
+   [vagrant@host1 bitcamp-ncp]$ ls
+   l.txt  x.txt
+
+   [vagrant@host1 bitcamp-ncp]$ rm l.txt
+   [vagrant@host1 bitcamp-ncp]$ ls
+   x.txt
+
+   디렉토리를 삭제할땐 rm -r 디렉토리명
+
+```
+
+```
+
+10. ln : Link의 약자로 리눅스 파일시스템에서 링크파일을 만드는 명령어
+
+   심볼릭링크(Symbolic Link)
+   - 단순히 원본파일을 가리키도록 링크만 시켜둔 것으로 윈도우의 바로가기같은 기능
+   원본파일의 크기와는 무관하다. 원본파일이 삭제되어 존재하지 않으면 링크파일은
+   깜박거리면서 없다는 것을 알려준다.
+
+   하드링크(Hard Link)
+   - 원본파일과 다른 이름으로 존재하는 동일한 파일이며 동일한 내용의 다른 파일이라고 할 수 있다.
+   서로 다른 파일이기 때문에 원본 파일이 삭제되더라도 그대로 남아 있다.
+   원본파일의 내요잉 변경될 경우에 링크파일의 내용도 자동으로 변경된다.
+
+   git이라는 디렉토리에 link_test라는 심볼릭링크 생성
+   [vagrnat@host1 ~]$ ln -s git link_test
+   [vagrant@host1 ~]$ ls -al
+
+   lrwxrwxrwx. 1 vagrant vagrant  3 Nov 21 21:22 link_test -> git
+
+   심볼릭 링크 삭제
+   [vagrant@host1 ~]$ rm link_test
+
+```
+
+```
+
+11. type : 명령 유형에 대한 정보를 표시하는 명령어
+
+   [vagrant@host1 ~]$ type pwd
+   pwd is a shell builtin
+
+   [vagrant@host1 ~]$ type ls
+   ls is aliased to 'ls --color=auto'
+
+   [vagrant@host1 ~]$ type git 
+   git is hashed (/usr/bin/git)
+
+```
+
+```
+
+12. which : 특정명령어의 위치를 찾아주는 명령어
+
+   [vagrant@host1 ~]$ which pwd
+   /usr/bin/pwd
+
+   [vagrant@host1 ~]$ which ls
+   alias ls='ls -color=auto'
+               /usr/bin/ls
+
+```
+
+```
+
+13. man : 각종 명령어, 프로그램의 사용법을 확인하는 명령어
+
+   [vagrant/host1 ~]$ man pwd
+
+   새로운 창에서
+   PWD(1)
+
+   NAME
+          pwd - print name of current/working directroy
+   SYNOPSIS
+          pwd [OPTION]...
+   .
+   .
+   .
+
+```
+
+```
+
+14 apropos : 검색어와 관련있는 명령어를 설명과 함께 출력하는 명령어
+
+   [vagrant@host1 ~]$ apropos pwd
+
+   lckpwdf (3)          - get shaodw ~
+   pwd (1)              - print name of ~
+   pwd (1p)             - return working ~
+   .
+   .
+   .
+
+```
+
+```
+
+15. info : 리눅스 명령어의 사용 방법, 옵션 등을 나타내는 명령어
+
+   [vagrnat@host1 ~]$ info pwd
+
+```
+
+```
+
+16. whatis : 명령어에 대한 간단한 설명을 출력하는 명령어
+   [vagrant@host1 ~]$ whatis ls
+   ls (1)               - list directory contents
+   ls (1p)              - list directory contents
+
+```
+
+```
+
+17. alias : 명령어를 별칭으로 지정하는 명령어
+
+   [vagrant@host1 ~]$ alias where='pwd'
+   [vagrant@host1 ~]$ where
+   /home/vagrant
+
+   $ alias 단축명령어='명령어'
+   $ unalias : 별칭해제 명령어
 
 ```
 
