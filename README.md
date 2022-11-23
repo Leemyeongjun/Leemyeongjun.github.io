@@ -87,17 +87,17 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 ### 리눅스 명령어
 
 ```
-1. pwd : 현재 작업중인 디렉토리 표시  
+1. pwd : 현재 작업중인 디렉토리 표시
 
-   [vagrant/@host1 ~]$ pwd  
+   [vagrant/@host1 ~]$ pwd
 
    /home/vagrant
 
-```  
+```
 
 ```
 
-2. cd : 디렉토리를 이동하는 명령어  
+2. cd : 디렉토리를 이동하는 명령어
 
    [vagrant/@host1 ~]$ cd git
 
