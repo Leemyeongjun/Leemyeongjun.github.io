@@ -131,12 +131,10 @@ HTML과 RTF 등 서식 문서로 쉽게 변환되기 때문에 응용 소프트�
 
    [vagrant/host1 bitcamp-ncp]$ less x.txt
 
-   ```
+   새로운 창에서
    1111
    2222
    x.txt (END)
-
-   ```
 
 ```
 
