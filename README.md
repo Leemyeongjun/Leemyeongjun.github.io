@@ -339,7 +339,7 @@ WWW은 물리학자들 사이에서 효율적이고 신속한 자료를 공유�
 
 * 2세대 웹 서비스 - User Interaction의 증가(동적 웹)
    * 웹 기반의 언어인 자바스크립트가 출현
-   *Web server에서 전체 HTML 페이지 뿐만 아니라 JavaScript를 통해 서버와 필요한 데이터만 주고 받음
+   * Web server에서 전체 HTML 페이지 뿐만 아니라 JavaScript를 통해 서버와 필요한 데이터만 주고 받음
 
 * 3세대 웹 서비스 - SPA (Frontend / Backend)
    * 자바스크립트가 주가 되고 그 안에 일부 HTML, CSS가 포함
