@@ -196,3 +196,55 @@
 .board_view .info dl dd {
     font-size: 1.2rem;
 }
+
+.page {
+    text-align: center;
+    width: 92%;
+}
+
+.pagination {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin-top: 40px;
+}
+
+.pagination li {
+    display: inline;
+    text-align: center;
+}
+
+.pagination a {
+    float: left;
+    display: block;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 5px 12px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.pagination a.active {
+    cursor: default;
+    color: white;
+}
+
+.pagination .num {
+    margin-left: 3px;
+    padding: 0;
+    width: 30px;
+    height: 30p;
+    line-height: 30px;
+    border-radius: 100%;
+}
+
+.pagination .num:hover {
+    background-color: lightblue;
+    color: #fff;
+}
+
+.pagination .num.active, .num:active {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
