@@ -96,3 +96,49 @@
    margin-top: 35px;
    cursor: pointer;
 }
+
+.contactview {
+   width: 100%;
+   height: 350px;
+   background-image: url(../image/contact2.png); 
+}
+
+.contactview > ul {
+   display: flex;
+}
+
+.contactview > ul > li {
+   flex: 1;
+   text-align: center;
+   margin-top: 90px;
+}
+
+.contactview ul li div, .contactview ul li div h1 {
+   color: white;
+}
+
+.more {
+   width: 220px;
+   height: 40px;
+   line-height: 40px;
+   margin: 16px auto;
+   border: 1px solid white;
+   cursor: pointer;
+}
+
+footer {
+   display: flex;
+   background: #1f1f1f;
+}
+
+footer div:first-child {
+   margin-left: 1200px;
+   flex: 3;
+   text-align: center;
+   color: white;
+}
+
+footer div:last-child {
+   flex: 9;
+   color:white;
+}
